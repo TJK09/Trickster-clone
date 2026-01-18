@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Disable Tailwind reset for body only */
+  body {
+    all: unset; /* optional if you want to keep default body styles */
+    font-family: 'Google Sans', sans-serif;
+  }
+}
+
+/* Your custom theme variable */
+@theme {
+  --color-brand: #FA4315;
+}
