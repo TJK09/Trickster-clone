@@ -8,8 +8,8 @@ export const Divider = () => {
             <div className="red">
                 <div className="content-main">
                 <h1>25</h1>
-                <h3>% <br />OFF</h3>
-                <h2>CUSTOM <br /> HELMETS</h2>
+                <h3 className='font-bold'>% <br />OFF</h3>
+                <h2 className='text-2xl py-6 font-bold '>CUSTOM <br /> HELMETS</h2>
                 </div>
                 <div className="content-second">
                 <h3>REDEEMING THIS CODE: CPN8F529</h3>
@@ -20,7 +20,7 @@ export const Divider = () => {
             <div className="black">
                 <div className="content-main">
                 <h1>SALE</h1>
-                <h2>BLACK <br /> FRIDAY</h2>
+                <h2 className='py-5 text-3xl font-bold'>BLACK <br /> FRIDAY</h2>
                 </div>
                 <div className="content-second">
                 <h3>AMAZING DISCOUNTS ALL DAY LONG!</h3>

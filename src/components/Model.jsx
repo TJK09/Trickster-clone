@@ -10,7 +10,7 @@ export const Model = () => {
   return (
     <div>
     <div className="head">
-      <h1>
+      <h1 className='text-4xl font-bold'>
         Standout Models
       </h1>
     </div>
@@ -47,7 +47,7 @@ export const Model = () => {
         <h4>
           MULTIPURPOSE PRODUCT BUILDER
         </h4>
-        <h1>
+        <h1 className='font-extrabold text-2xl'>
           WELCOME TO THE TRICKSTER
         </h1>
         <hr />

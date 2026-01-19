@@ -9,8 +9,8 @@ const Latest = () => {
     <div>
         <div className="latest-container ">
             <div className="latest-main">
-                <h4>THE TRICKSTER</h4>
-                <h1>LATEST ARRIVALS</h1>
+                <h4 className='text-xl pt-4 text-gray-400'>THE TRICKSTER</h4>
+                <h1 className='text-5xl font-bold'>LATEST ARRIVALS</h1>
             </div>
             <div className="latest-second">
                 <div className="latest1">

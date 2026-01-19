@@ -11,9 +11,9 @@ export const Section4 = () => {
             <div className="con-1">
                 <div className="one">
                     <h5>01.</h5>
-                    <h1>CHOOSE THE</h1>
-                    <h1>HELMET MODEL</h1>
-                    <h4>Start the building Process</h4>
+                    <h1 className='font-bold text-5xl'>CHOOSE THE</h1>
+                    <h1 className='font-bold text-5xl'>HELMET MODEL</h1>
+                    <h4 className='text-2xl my-2.5'>Start the building Process</h4>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet repellat laborum obcaecati explicabo? Ullam quod ipsa, earum deserunt nisi beatae consequatur nulla at accusantium unde maiores ex qui, placeat neque!</p>
                 </div>
                 <div className="two">
@@ -26,18 +26,18 @@ export const Section4 = () => {
                 </div>
                 <div className="one">
                     <h5>02.</h5>
-                    <h1>CUSTOMIZE</h1>
-                    <h1>YOUR HELMET</h1>
-                    <h4>Give your Style to the Product</h4>
+                    <h1 className='font-bold text-5xl'>CUSTOMIZE</h1>
+                    <h1 className='font-bold text-5xl'>YOUR HELMET</h1>
+                    <h4 className='text-2xl py-2.5'>Give your Style to the Product</h4>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet repellat laborum obcaecati explicabo? Ullam quod ipsa, earum deserunt nisi beatae consequatur nulla at accusantium unde maiores ex qui, placeat neque!</p>
                 </div>
                 </div>
                 <div className="con3">
                 <div className="one">
                     <h5>03.</h5>
-                    <h1>CONFIRM AND</h1>
-                    <h1>ADD TO CART</h1>
-                    <h4>Finishing the Purchase</h4>
+                    <h1 className='font-bold text-5xl'>CONFIRM AND</h1>
+                    <h1 className='font-bold text-5xl'>ADD TO CART</h1>
+                    <h4 className='text-2xl py-2.5'>Finishing the Purchase</h4>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet repellat laborum obcaecati explicabo? Ullam quod ipsa, earum deserunt nisi beatae consequatur nulla at accusantium unde maiores ex qui, placeat neque!</p>
                 </div>
                 <div className="two">

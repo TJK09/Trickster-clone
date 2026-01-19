@@ -10,7 +10,7 @@ export const Navbar = () => {
             <div className="nav-icons">
                 <ul className="actions-list-left">
                     <li className="action-list-item">
-                        <div className="social-link">
+                        <div className="social-link ">
                             <a href="#">
                                 <i className="bi bi-facebook"></i>
                             </a>
@@ -76,7 +76,7 @@ export const Navbar = () => {
             </div>
         </div>
         <header className='navbar-wrapper'>
-            <nav className='container inline-block bg-white mx-auto flex items-center justify-between px-6 py-4 '>
+            <nav className='container  bg-white mx-auto flex items-center justify-between px-6 py-4 '>
                 <div className='logo'>
                     <img src={logo} alt="Logo" />
                     </div>
