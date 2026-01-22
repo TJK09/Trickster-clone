@@ -14,7 +14,7 @@ export const Model = () => {
         Standout Models
       </h1>
     </div>
-    <div className="grid-container grid grid-cols-1 md:grid-cols-3 gap-4 p-4 content">
+    <div className="content">
       <div className="content-writing">
         <img src={Content1} alt="" className='w-full h-auto rounded-lg grid-item'/>
         <h1>
@@ -60,10 +60,10 @@ export const Model = () => {
       </div>
       <div className="crafted">
         <div className="crafted-first">
-         <h1>
-            CHECK OUR <span>CRAFTED ITEMS</span> 
+         <h1 className='text-4xl font-bold'>
+            CHECK OUR <span className='text-[#fa4315]'>CRAFTED ITEMS</span> 
           </h1>
-          <h3>
+          <h3 className='text-gray-400'>
             Carefully Designed by Experted Artist
           </h3>
         </div>

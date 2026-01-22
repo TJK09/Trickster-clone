@@ -4,6 +4,13 @@ import '../Styles/Navbar.css';
 import logo from '../assets/Logo.png';
 
 export const Navbar = () => {
+    const [isOpen, setIsOpen] = React.useState(false);
+
+    const toggleMenu = () =>{
+
+        setIsOpen(!isOpen);
+    }
+    
   return (
     <div className='navbar'>
         <div className="starter">
@@ -80,7 +87,7 @@ export const Navbar = () => {
                 <div className='logo'>
                     <img src={logo} alt="Logo" />
                     </div>
-                    <ul className='hidden md:flex gap-8 nav-links'>
+                    <ul className='nav-links'>
                         <li>
                             <Link to='home'>HOME</Link>
                         </li>

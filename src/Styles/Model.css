@@ -85,13 +85,12 @@
 
 .crafted {
     background-position: center;
+    height: 200px;
     background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
     url("../assets//hero3-alt.jpg");
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 200px;
-    height: 200px;
 }
 
 .crafted-first{
@@ -99,25 +98,37 @@
     padding-top: 0;
 }
 
-.crafted-first h1{
-    font-size: 50px;
-}
-
-.crafted-first span{
-    color: #fa4315;
-}
-
-.crafted-first h3{
-    color: gray;
-}
 
 .crafted-second button{
-    margin-top: 50px;
     height: 50px;
     width: 200px;
     color: white;
     font-weight: bold;
     background-color: #fa4315;
     border-radius: 10px;
+}
+
+@media (max-width:768px){
+    .content{
+        display: flex;
+        flex-direction: column;
+        gap: 1.75rem;
+    }
+
+    .crafted{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .crafted-first h1,h3,span{
+        text-align: center;
+    }
+
+    .crafted-second button{
+        border-radius: 5px;
+    }
 }
 

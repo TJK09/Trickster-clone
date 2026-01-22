@@ -81,7 +81,6 @@ a {
 }
 
 nav.container {
-  max-width: 1200px;
   margin: 0;
   padding: 0;
   display: flex;
@@ -107,8 +106,6 @@ nav.container {
 .nav-links {
   display: flex;
   gap: 40px;
-  padding-left: 400px;
-  left: 100px;
 }
 
 .nav-links li a {
@@ -138,7 +135,6 @@ nav.container {
 .cart-icon {
   font-weight: 600;
   cursor: pointer;
-  margin-left: 50px;
   background-color: #fb6124;
   padding: 10px;
   border: 10px solid #fb6124;

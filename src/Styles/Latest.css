@@ -36,3 +36,14 @@
     list-style: none;
     gap: 5px;
 }
+
+
+@media (max-width:768px){
+
+    .latest-second{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
+}
